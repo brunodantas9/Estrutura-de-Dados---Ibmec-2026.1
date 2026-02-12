@@ -5,7 +5,7 @@ def main():
     print("Iniciando Benchmark de Ordenação...")
     
     # 1. Gerar Dados (Simulação de carga)
-    n = 1_000_000
+    n = 100_000_000
     print(f"Gerando uma lista com {n} números aleatórios...")
     dados = [random.randint(0, n) for _ in range(n)]
     
